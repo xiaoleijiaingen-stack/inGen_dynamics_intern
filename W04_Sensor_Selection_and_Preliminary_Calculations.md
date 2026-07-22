@@ -215,7 +215,7 @@ R_{\theta,\text{eff}} \leq \frac{15}{11.043} = 1.36\ \text{K/W}
 4. Intel / RealSense, *D400 Series Product Family Datasheet*, October 2024, Table 3-52: D435 nominal 90 × 25 × 25 mm and 75 g; Table 7-8: D435-family 3.403 W electrical power and 3.043 W TDP at maximum operating mode.
 5. Intel, *RealSense Depth Camera D435 Product Specifications*, USB Type-C interface and 90 × 25 × 25 mm module dimensions.
 
-## Source URLs
+
 
 - https://ouster.com/products/hardware/vlp-16
 - https://data.ouster.io/downloads/velodyne/user-manual/vlp-16-user-manual-revf.pdf
