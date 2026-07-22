@@ -30,7 +30,7 @@ The confirmed drive configuration is summarised below.
 | Motor arrangement | One dedicated brushless hub motor per wheel |
 | Suspension | Independent suspension at each wheel |
 | Steering method | Differential torque vectoring |
-| Minimum stated turning radius | 0 m |
+| Minimum stated turning radius | / |
 | Special manoeuvring capability | In-place rotation and lateral crab movement |
 | Terrain control | Wheel-slip detection and asymmetric torque redistribution |
 
