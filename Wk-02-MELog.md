@@ -1,4 +1,6 @@
-# Week 2 Mechanical Engineering Log
+# Mechanical Engineering Log
+
+## Week 2
 
 ## What was modelled
 
