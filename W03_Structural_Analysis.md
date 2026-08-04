@@ -351,11 +351,5 @@ This memo is a preliminary global beam calculation, not a released chassis desig
 
 The cross-section recommendation must therefore be treated as a minimum screening result pending detailed CAD, FEA and physical validation.
 
----
 
-## References
 
-1. InGen Dynamics, *Aido Rover Detailed Functionality Specification*, March 2026, values carried forward through `W02_Rover_Drivetrain_Analysis.md`.
-2. NASA, *NASA-STD-5001B w/Change 3 — Structural Design and Test Factors of Safety for Spaceflight Hardware*, 24 October 2022. https://standards.nasa.gov/sites/default/files/standards/NASA/B-w/CHANGE-3/3/2022-10-24-NASA-STD-5001B-w-Change-3-Approved.pdf
-3. Kaiser Aluminum, *Rod & Bar Alloy 6061 — Technical Data*, T6/T651 typical yield strength 276 MPa and elastic modulus 68.3 GPa. https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1025/Kaiser_Aluminum_6061_Rod_and_Bar.pdf
-4. ISO, *ISO 2631-1:1997 — Mechanical vibration and shock — Evaluation of human exposure to whole-body vibration — Part 1: General requirements*. https://www.iso.org/standard/7612.html
