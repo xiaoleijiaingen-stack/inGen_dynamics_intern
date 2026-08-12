@@ -27,3 +27,18 @@ The single-wheel impact case governed the design. It produced a limit bending mo
 ## Next engineering question
 
 The largest uncertainty is the real suspension-to-chassis load path. The assumed centreline cut may overestimate or underestimate local bending depending on the longitudinal rail spacing, bracket offset and load sharing between cross-members. Dimensioned CAD, suspension pickup locations and either FEA or strain-gauge data from a controlled terrain-step test are needed before this preliminary section can be released.
+
+**Week:** 4 — Sensor Integration Design + Mid-Point Review   
+
+## What I modelled
+
+I converted the Week 2–3 Aido Rover results into packaging requirements for a Sentinel Prime AI patrol sensor platform. The selected reference payload is a VLP-16-family 360° LiDAR plus an Intel RealSense D435 depth camera. Because SolidWorks access is blocked by the licence renewal issue, I did not claim CAD completion; instead, I built a pre-CAD design note with quantified geometry, structural, thermal and mass requirements. The main calculations were the preliminary package mass, the 5g equivalent-static shock load and the first-order thermal screening target. I also defined CAD-ready reference dimensions for the later base plate, LiDAR ring, camera bracket and chassis interface.
+
+## What the analysis revealed
+
+The sensor package is feasible before CAD but mass and thermal margin are the controlling constraints. The provisional package mass is 1.225 kg, leaving 0.275 kg margin against the 1.50 kg target. The conservative 5g inertial design load is 73.6 N at the full mass limit, while the current 1.225 kg budget gives 60.1 N. The combined LiDAR and D435 heat load is 11.043 W, which implies an equivalent thermal-resistance target of no more than 1.36 K/W to keep the surface below 50 °C at 35 °C ambient.
+
+## Next engineering question
+
+The requirement category that most constrained the design is mass, followed closely by thermal management. The largest open question is whether the final SolidWorks geometry can keep the mounting structure below the 0.20 kg allocation while still providing enough stiffness and a usable thermal path. Once SolidWorks is available again, the first CAD step should be a requirement-verification skeleton, not cosmetic modelling.
+
