@@ -22,13 +22,13 @@ I converted the Week 2 Aido Rover mass and geometry assumptions into a prelimina
 
 ## What the analysis revealed
 
-The single-wheel impact case governed the design. It produced a limit bending moment of 1.707 kN·m and required a minimum section modulus of 12.37 cm³. The static and slope cases required 4.64 cm³ and 8.17 cm³ respectively. A preliminary 80 mm × 40 mm × 4 mm 6061-T6 rectangular hollow section provides 17.78 cm³ and achieves a calculated yield factor of safety of 2.88 in the impact case. The impact case governs physically because the terrain step doubles the nominal wheel reaction before the uncertainty safety factor is applied.
+The single-wheel impact case governed the design. It produced a limit bending moment of 1.707 kN·m and required a minimum section modulus of 12.37 cm³. The static and slope cases required 4.64 cm³ and 8.17 cm³, respectively. A preliminary 80 mm × 40 mm × 4 mm 6061-T6 rectangular hollow section provides 17.78 cm³ and achieves a calculated yield factor of safety of 2.88 in the impact case. The impact case governs physically because the terrain step doubles the nominal wheel reaction before the uncertainty safety factor is applied.
 
 ## Next engineering question
 
 The largest uncertainty is the real suspension-to-chassis load path. The assumed centreline cut may overestimate or underestimate local bending depending on the longitudinal rail spacing, bracket offset and load sharing between cross-members. Dimensioned CAD, suspension pickup locations and either FEA or strain-gauge data from a controlled terrain-step test are needed before this preliminary section can be released.
 
-##Week 4 — (Sensor Integration Design + Mid-Point Review)   
+##Week 4   
 
 ## What I modelled
 
