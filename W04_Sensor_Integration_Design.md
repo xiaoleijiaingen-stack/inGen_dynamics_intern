@@ -221,13 +221,3 @@ The following items are intentionally deferred because geometry is not yet avail
 | Thermal-resistance screening target | ≤ 1.36 K/W | Week 5 validation required |
 | Governing requirement category | Mass + thermal | Mass controls packaging margin; thermal controls material path |
 | CAD status | Deferred | Not claimed complete |
-
----
-
-## 9. References
-
-1. InGen Dynamics Inc., *Mechanical Engineer Internship Program Plan*, Week 4 requirements and deliverables.  
-2. InGen Dynamics Inc., *Concepts Primer*, Sensor Integration Design section and Week 4 requirement categories.  
-3. W02_Rover_Drivetrain_Analysis.md, Aido Rover kinematics, turning envelope, anti-tipping and ground-pressure results.  
-4. W03_Structural_Analysis.md, Aido Rover cross-member load cases and section modulus requirement.  
-5. W04_Sensor_Selection_and_Preliminary_Calculations.md, sensor selection, mass, 5g load and thermal screening calculations.  
