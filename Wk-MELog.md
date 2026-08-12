@@ -28,7 +28,7 @@ The single-wheel impact case governed the design. It produced a limit bending mo
 
 The largest uncertainty is the real suspension-to-chassis load path. The assumed centreline cut may overestimate or underestimate local bending depending on the longitudinal rail spacing, bracket offset and load sharing between cross-members. Dimensioned CAD, suspension pickup locations and either FEA or strain-gauge data from a controlled terrain-step test are needed before this preliminary section can be released.
 
-##Week 4   
+## Week 4   
 
 ## What I modelled
 
