@@ -42,3 +42,15 @@ The sensor package is feasible before CAD but mass and thermal margin are the co
 
 The requirement category that most constrained the design is mass, followed closely by thermal management. The largest open question is whether the final SolidWorks geometry can keep the mounting structure below the 0.20 kg allocation while still providing enough stiffness and a usable thermal path. Once SolidWorks is available again, the first CAD step should be a requirement-verification skeleton, not cosmetic modelling.
 
+## Week 5
+
+## What I modelled
+
+This week I built a lumped thermal-resistance model for Fari's compact electronics enclosure, using a representative 14.87 W embedded-electronics heat budget and the programme's worst indoor ambient of 30 °C. The model retains the required junction-to-case, case-to-PCB, PCB-to-enclosure and enclosure-to-ambient paths, with the external convection coefficient calculated from the Churchill–Chu vertical-plate correlation. I then varied effective enclosure area from 0.03 to 0.12 m² and compared ABS, 6061 aluminium and 304 stainless steel wall conductivity. I also screened an aluminium heat spreader, an external fin array and TIM conductivity.
+
+## What it revealed
+
+The most important result is that external natural-convection area becomes the dominant constraint once a reasonable conductive path exists. At 0.040 m² effective area, the baseline ABS case predicts 88.5 °C, slightly above the 85 °C junction target, while adding an aluminium heat-spreader path reduces the prediction to 83.6 °C. The selected spreader + medium-k TIM concept with 0.045 m² area predicts 80.1 °C, so passive cooling is feasible in the current screening model.
+
+The key scaling difference from my RVACS dissertation is that the robot enclosure is centimetre-scale and operates at Ra of order 10^6, so the relevant external flow is laminar natural convection rather than the turbulent/forced-convection regime that justified CFD turbulence modelling in the reactor problem.
+
